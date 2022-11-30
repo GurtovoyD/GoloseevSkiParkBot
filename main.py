@@ -36,5 +36,3 @@ def info():
     pass
 bot.polling(none_stop=True)
 
-# Test of the commit in PYcharm with GitHub
-def test_func():
