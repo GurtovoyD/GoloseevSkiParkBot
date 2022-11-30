@@ -31,4 +31,7 @@ def info_goloseev(message):
         markupInfo.add(info_gol, price_SkiPass, price_equipment, contacts)
         bot.send_message(message.chat.id, f"Радий бачити!", reply_markup=markupInfo)
 
+
+def info():
+    pass
 bot.polling(none_stop=True)
